@@ -8,7 +8,7 @@ const MainContainer = ({ children }) => {
           <Button title="로그인" />
         </div>
       </header>
-      <main className=" flex  flex-col items-center justify-center max-w-screen-xl mx-auto ">{children}</main>
+      <main className=" flex  flex-col items-center justify-center max-w-screen-xl mx-auto py-7">{children}</main>
     </>
   );
 };

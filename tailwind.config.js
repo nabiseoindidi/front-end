@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./**/*.{ts,tsx}"],
+  content: ["./**/*.{ts,tsx,jsx}"],
   theme: {
     extend: {},
   },
@@ -18,6 +18,8 @@ module.exports = {
           error: "#F87272",
         },
       },
+
+      "corporate",
     ],
   },
   plugins: [require("daisyui")],

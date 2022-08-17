@@ -5,6 +5,7 @@ module.exports = {
   },
   daisyui: {
     themes: [
+      "corporate",
       {
         custom: {
           primary: "#570DF8",
@@ -18,8 +19,6 @@ module.exports = {
           error: "#F87272",
         },
       },
-
-      "corporate",
     ],
   },
   plugins: [require("daisyui")],

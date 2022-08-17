@@ -21,7 +21,7 @@ const Level = () => {
       </section>
       <section className="flex justify-center items-center py-3">
         <Link href="/quiz" passHref>
-          <Button title="👉" />
+          <Button title="문제로 이동하기 👉" />
         </Link>
       </section>
     </MainContainer>

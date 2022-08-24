@@ -15,7 +15,7 @@ const Level = () => {
       </section>
       <section className="flex justify-around items-center w-80">
         {BTN.map(({ title, type }) => {
-          return <Button title={title} key={title} type={type} />;
+          <Button title={title} key={title} type={type} />;
         })}
       </section>
       <section className="flex justify-center items-center py-3">

@@ -10,8 +10,8 @@ const Home = () => {
         <p>기술 면접을 위한 문제은행입니다!</p>
       </section>
       <section className="md:flex justify-around items-center py-4 ">
-        {[...Array(3)].map((test) => (
-          <IndexCard key={test} />
+        {[...Array(3)].map((test, index) => (
+          <IndexCard key={"test" + index} />
         ))}
       </section>
       <section className="flex justify-center items-center py-3">

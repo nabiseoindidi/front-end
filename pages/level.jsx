@@ -14,8 +14,7 @@ const Level = () => {
         <p>각 레벨에 대한 설명을 보여주고 이동하도록</p>
       </section>
       <section className="flex justify-around items-center w-80">
-        {BTN.map((items) => {
-          const { title, type } = items;
+        {BTN.map(({ title, type }) => {
           return <Button title={title} key={title} type={type} />;
         })}
       </section>

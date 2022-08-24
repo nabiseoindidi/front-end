@@ -1,6 +1,6 @@
-const IndexCard = ({ key }) => {
+const IndexCard = () => {
   return (
-    <section key={key} className=" w-96  border-solid border-2 rounded-xl m-2 p-2">
+    <section className=" w-96  border-solid border-2 rounded-xl m-2 p-2">
       <div>
         <h2 className="text-xl font-bold p-2  text-neutral">제목</h2>
       </div>

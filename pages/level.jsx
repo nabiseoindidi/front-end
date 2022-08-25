@@ -14,9 +14,9 @@ const Level = () => {
         <p>각 레벨에 대한 설명을 보여주고 이동하도록</p>
       </section>
       <section className="flex justify-around items-center w-80">
-        {BTN.map(({ title, type }) => {
+        {BTN.map(({ title, type }) => (
           <Button title={title} key={title} type={type} />;
-        })}
+        ))}
       </section>
       <section className="flex justify-center items-center py-3">
         <Link href="/quiz" passHref>

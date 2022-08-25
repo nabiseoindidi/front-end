@@ -1,0 +1,26 @@
+import Button from "../components/button/button";
+import Link from "next/link";
+import MainContainer from "../container/mainContainer/mainContainer";
+import IndexCard from "../components/indexCard/IndexCard";
+const Home = () => {
+  return (
+    <MainContainer>
+      <section className="flex flex-col items-center ">
+        <h1 className=" text-4xl font-bold py-2">어서오세요🖐</h1>
+        <p>기술 면접을 위한 문제은행입니다!</p>
+      </section>
+      <section className="md:flex justify-around items-center py-4 ">
+        {[...Array(3)].map((test, index) => (
+          <IndexCard key={"test" + index} />
+        ))}
+      </section>
+      <section className="flex justify-center items-center py-3">
+        <Link href="/level" passHref>
+          <Button title="레벨선택으로 이동하기 👉" />
+        </Link>
+      </section>
+    </MainContainer>
+  );
+};
+
+export default Home;

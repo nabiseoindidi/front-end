@@ -1,10 +1,11 @@
 module.exports = {
-  content: ["./**/*.{ts,tsx}"],
+  content: ["./**/*.{ts,tsx,jsx}"],
   theme: {
     extend: {},
   },
   daisyui: {
     themes: [
+      "corporate",
       {
         custom: {
           primary: "#570DF8",
